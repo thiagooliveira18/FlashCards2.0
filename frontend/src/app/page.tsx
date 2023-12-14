@@ -1,7 +1,8 @@
 "use client";
 
-import BarraLateral from '@/components/BarraLateral/BarraLateral';
-import Header from '@/components/Header/Header';
+import BarraLateral from '@/components/BarraLateralComp/BarraLateral/BarraLateral';
+import Body from '@/components/ConteudoComp/Body/Body';
+import Header from '@/components/HeaderComp/Header/Header';
 import Image from 'next/image'
 
 // Base = https://dribbble.com/shots/23182689-TaskMaster-Task-Management-Dashboard
@@ -13,8 +14,8 @@ export default function Home() {
         <BarraLateral />
         <div className="flex flex-col w-full h-full">
           <Header />
-          <div className="p-7 py-10 flex flex-col">
-            conteúdo
+          <div className="p-4 w-full h-full flex flex-col overflow-hidden">
+            <Body />
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import BotaoAddDeck from "../BotaoAddDeck/BotaoAddDeck";
 
 export default function Header(){
     return (
-        <div className="w-full h-20 px-10 flex flex-row items-center justify-between">
+        <div className="w-full h-32 px-10 flex flex-row items-center justify-between">
             <BotaoProfile />
             <BotaoAddDeck />
         </div>
