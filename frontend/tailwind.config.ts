@@ -41,7 +41,7 @@ const config: Config = {
       boxShadow: {
         'r-shadow': '15px 0px 25px 0px rgba(0, 0, 0, 0.4)',
         '3xl': '0px 35px 60px 20px rgba(0, 0, 0, 0.4)',
-      }
+      },
     },
   },
   plugins: [],
