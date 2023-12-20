@@ -8,7 +8,7 @@ type PropsDeck = {
 
 export default function Deck({titulo, cartas, id}: PropsDeck){
     return(
-        <div className="w-72 h-60 flex flex-col items-center justify-center bg-white hover:bg-stone-100 border border-black rounded-3xl">
+        <div className="w-72 h-60 flex flex-col items-center justify-center bg-gradient-to-bl bg-white shadow-xl border-2 border-black rounded-3xl">
             <div className="w-full h-3/5 flex flex-col items-center justify-center">
                 <h1 className="text-2xl font-bold mb-4">{titulo}</h1>
                 <h2 className="text-lg">{cartas} cartas</h2>
