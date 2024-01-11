@@ -3,7 +3,7 @@ import BasePages from "@/components/BasePages/BasePages";
 export default function About() {
     return(
         <BasePages>
-            <div className="w-[95%] h-full p-4 px-7 ml-4 flex flex-col justify-between bg-white rounded-3xl shadow-2xl">
+            <div className="w-[95%] h-full p-7 ml-4 flex flex-col justify-between bg-white rounded-3xl shadow-2xl">
                 <div>
                     <div className="w-full h-14">
                         <h1 className="text-3xl font-bold">Projeto Flash Cards</h1>
