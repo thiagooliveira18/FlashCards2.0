@@ -1,5 +1,3 @@
-import Image from "next/image";
-import avatar from "../../../public/avatar_01.png";
 import BotaoProfile from "../BotaoProfile/BotaoProfile";
 import BotaoAddDeck from "../BotaoAddDeck/BotaoAddDeck";
 
