@@ -1,5 +1,6 @@
 "use client";
 
+import BotaoHamb from '@/components/BarraLateralComp/BotaoHamburguer/Botao';
 import BasePages from '@/components/BasePages/BasePages';
 import BodyHome from '@/components/ConteudoComp/Body/Body';
 
